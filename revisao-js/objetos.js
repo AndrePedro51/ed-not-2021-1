@@ -42,3 +42,13 @@ console.log(objVazio)
 delete objVazio.idade
 
 console.log(objVazio)
+
+//Mostrar propriedades de um objeto
+for(let p in pessoa){
+    console.log(p)
+}
+
+//For in para listar propriedades e valores de objetos
+for(let a in pessoa){
+    console.log(a + ' -> ' + pessoa[a])
+}

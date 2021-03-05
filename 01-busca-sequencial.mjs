@@ -90,7 +90,7 @@ const primos = [
 ]
 
 import { nomes } from './includes/vetor-nomes.mjs'
-/*
+
 console.time('Buscando 7873')//Calcular tempo de execução
 console.log(buscaSequencial(primos, 7873))
 console.timeEnd('Buscando 7873')
@@ -102,9 +102,13 @@ console.timeEnd('Buscando 12')
 console.time('Buscando 5021')
 console.log(buscaSequencial(primos, 5021))
 console.timeEnd('Buscando 5021')
-*/
+
+console.time('Buscando 5021')
+console.log(buscaSequencial(primos, 5021))
+console.timeEnd('Buscando 5021')
 
 
+/*
 console.time('Buscando ANDRE')
 console.log(buscaSequencial(nomes, 'ANDRE'))
 console.timeEnd('Buscando ANDRE')
@@ -122,4 +126,4 @@ console.log(buscaSequencial(nomes, 'ZULEICA'))
 console.timeEnd('Buscando ZULEICA')
 console.time('Buscando ANDRE')
 console.log(buscaSequencial(nomes, 'ANDRE'))
-console.timeEnd('Buscando ANDRE')
+console.timeEnd('Buscando ANDRE')*/
